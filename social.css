@@ -73,10 +73,9 @@ p{
 }
 
 
-  .links a.active {
-  background-color:hsl(75, 94%, 57%);
-  color:hsl(0, 0%, 12%);
-  
+  .links a:focus {
+  background-color:hsl(75, 94%, 57%) ;   /* vert citron */
+  color: #1a1a1a;              /* texte sombre */
 }
 
 @media (max-width: 375px) {
